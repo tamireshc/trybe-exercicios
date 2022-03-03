@@ -1,0 +1,17 @@
+h1,
+p,
+body {
+  text-align: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li:hover {
+  background-color: antiquewhite;
+}
+li:active {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
