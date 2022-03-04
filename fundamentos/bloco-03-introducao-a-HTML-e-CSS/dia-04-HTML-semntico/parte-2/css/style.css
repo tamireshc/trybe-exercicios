@@ -92,8 +92,22 @@ main {
     url("../imagens/tamarutaca2.jpeg");
 }
 
-.table {
+.presentation {
   text-align: center;
+}
+
+.main-title {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+table {
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  margin-top: 120px;
+  padding: 10px;
+  text-align: left;
 }
 
 .main-title h2 {
@@ -115,24 +129,21 @@ main {
   font-weight: 500;
 }
 
-.main-title {
-  display: inline-block;
-  margin-right: 80px;
-}
-
-table {
-  display: inline-block;
-  color: white;
-  border: 1px solid white;
-  margin-top: 120px;
-  padding: 10px;
-  text-align: left;
-}
-
 article {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f7f0f0;
+}
+
+.title-article {
+  color: #443434;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2em;
+  background-color: #e4dede;
+
+  padding: 30px;
 }
 
 article h3 {
@@ -141,9 +152,15 @@ article h3 {
   color: #b8221b;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.article-1,
+.article-2 {
+  text-align: center;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
 
-.artigo1 img,
-.artigo2 img {
+.article-1 img,
+.article-2 img {
   max-width: 150px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -151,15 +168,8 @@ article h3 {
   /* height: 80px; */
 }
 
-.artigo1,
-.artigo2 {
-  text-align: center;
-  margin-left: 150px;
-  margin-bottom: 40px;
-}
-
-.artigo1 p,
-.artigo2 p {
+.article-1 p,
+.article-2 p {
   font-family: sans-serif;
   font-size: 1.2em;
   line-height: 1.4;
@@ -167,22 +177,10 @@ article h3 {
   text-align: justify;
 }
 
-footer {
-  background-color: #b8221b;
-  color: white;
-  text-align: center;
-}
-
 aside {
   background-color: #443434;
   text-align: center;
   padding: 20px;
-}
-
-footer p {
-  padding: 30px 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
 }
 
 aside a {
@@ -200,4 +198,16 @@ aside a:hover {
 
 aside img {
   width: 30px;
+}
+
+footer {
+  background-color: #b8221b;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding: 30px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
 }
