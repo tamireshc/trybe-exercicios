@@ -133,6 +133,17 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f7f0f0;
+}
+
+.title-article {
+  color: #443434;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2em;
+  background-color: #e4dede;
+
+  padding: 30px;
 }
 
 article h3 {
