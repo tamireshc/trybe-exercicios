@@ -175,9 +175,14 @@ if (
 // lucro = valorVenda - valorCustoTotal (lucro de um produto)
 
 const valorProduto = 10;
-const custoProdutoFinal = valorProduto * 1.2;
 const valorVendaproduto = 20;
-const lucro = (valorVendaproduto - custoProdutoFinal) * 0.8 * 1000;
+if (valorProduto >= 0 && valorVendaproduto >= 0) {
+  const custoProdutoFinal = valorProduto * 1.2;
+  const lucro = (valorVendaproduto - custoProdutoFinal) * 1000;
+  console.log(lucro);
+} else {
+  console.log("valores não podem ser negativos");
+}
 
 // 11. Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
 // A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
