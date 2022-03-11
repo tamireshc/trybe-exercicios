@@ -135,3 +135,21 @@ function endsWith(string, stringEnd) {
 
 console.log(endsWith("trybe", "be"));
 console.log(endsWith("tamires", "ami"));
+
+arrayTeste4 = [2, 3, 3, 5, 8, 2, 3];
+
+function numberMostRepeat(array) {
+  let maxRepeat = 0;
+  let whatNumber = null;
+  for (let i = 0; i < array.length; i++) {
+    let number = array[i];
+    let howMany = array.filter((n) => n == number).length;
+    if (howMany > maxRepeat) {
+      maxRepeat = howMany;
+      whatNumber = number;
+    }
+  }
+  return whatNumber;
+}
+
+console.log(numberMostRepeat(arrayTeste4));
