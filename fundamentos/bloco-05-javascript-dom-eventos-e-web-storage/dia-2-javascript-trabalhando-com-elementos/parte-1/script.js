@@ -45,7 +45,7 @@ let terceiroFilho3 =
 
 // Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
 
-for (let i = pai.childNodes.length - 1; (i += 0); i -= 1) {
+for (let i = pai.childNodes.length - 1; i >= 0; i -= 1) {
   let currentChildren = pai.childNodes[i];
   if (currentChildren.id !== "elementoOndeVoceEsta") {
     currentChildren.remove();
