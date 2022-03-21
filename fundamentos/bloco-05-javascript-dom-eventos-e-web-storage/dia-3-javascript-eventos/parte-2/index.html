@@ -23,19 +23,19 @@
     <section class="tasks-container">
       <div class="my-tasks">
         <h3>MINHAS TAREFAS</h3>
+        <label for="task-input">Novo:</label>
+        <input type="text" id="task-input" placeholder="Escreva sua tarefa" />
+        <button id="btn-add">Adicionar</button><br />
       </div>
-      <div class="input-container">
+      <div class="input-container task-list-appointment">
         <h3>COMPROMISSOS</h3>
         <label for="task-input">Novo:</label>
         <input
           type="text"
-          id="task-input"
+          id="task-input-appointment"
           placeholder="Escreva seu compromisso"
         />
-        <button id="btn-add">Adicionar</button>
-      </div>
-      <div class="task-list-container">
-        <ul class="task-list"></ul>
+        <button id="btn-add-appointment">Adicionar</button><br />
       </div>
     </section>
     <script src="script.js"></script>

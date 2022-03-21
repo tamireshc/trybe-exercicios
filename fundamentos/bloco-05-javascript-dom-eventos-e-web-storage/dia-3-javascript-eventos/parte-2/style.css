@@ -153,6 +153,6 @@ label {
   padding: 10px 0;
 }
 
-/* span {
-  display: block;
-} */
+.selected {
+  border: 3px solid rgb(241, 13, 13);
+}
