@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(219, 226, 235);
+  font-family: "Times New Roman", Times, serif;
+}
+
+fieldset {
+  border: 1px solid rgb(121, 146, 218);
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  color: rgb(1, 1, 53);
+}
+input[type="text"],
+input[type="email"] {
+  border: none;
+  padding: 3px 10px;
+  border-radius: 3px;
+  width: 96%;
+  margin: 10px;
+}
+
+.input-text,
+legend {
+  display: block;
+  margin: 0px 10px;
+  color: rgb(1, 1, 53);
+  font-size: 1.05em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 12px;
+  width: 12px;
+}
+
+textarea {
+  width: 96%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+label {
+  margin: 20px 10px;
+  color: rgb(1, 1, 53);
+  font-size: 1.05em;
+}
+
+input[type="date"] {
+  margin: 10px;
+  border: none;
+  padding: 3px 10px 3px 20px;
+  color: rgb(1, 1, 53);
+}
+button {
+  background-color: rgb(121, 146, 218);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 120px;
+  text-align: center;
+  margin: 10px;
+}
+
+.buttons {
+  text-align: center;
+}
