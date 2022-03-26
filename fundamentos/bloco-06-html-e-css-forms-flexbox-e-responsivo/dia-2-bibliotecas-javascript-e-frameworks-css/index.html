@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./DatePickerX.min.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>HTML FORM</title>
+  </head>
+  <body class="container bg-ligth">
+    <header>
+      <h1 class="display-5 mt-5 mb-4 text-center">
+        Concorra à Viagem dos seus sonhos com a TrybeTrip
+      </h1>
+    </header>
+
+    <form action="" id="form">
+      <section class="row mb-3">
+        <div class="col-6">
+          <label class="form-label" for="name-input" class="input-text"
+            >Nome Completo:</label
+          >
+          <input
+            class="form-control"
+            type="text"
+            id="name-input"
+            minlength="10"
+            maxlength="40"
+            name="fullName"
+          />
+        </div>
+        <div class="col-6">
+          <label class="form-label" for="email-input" class="input-text"
+            >E-mail:</label
+          >
+          <input
+            class="form-control"
+            type="email"
+            id="email-input"
+            minlength="10"
+            maxlength="50"
+            name="email"
+            required
+          />
+        </div>
+        <br />
+      </section>
+
+      <fieldset>
+        <legend>Destino Preferido:</legend>
+        <input
+          type="radio"
+          name="destinos"
+          id="destino-1"
+          value="cidade"
+          checked
+        />
+        <label class="form-check-label" for="destino-1">Cidade</label>
+
+        <input
+          class="ms-2"
+          type="radio"
+          name="destinos"
+          id="destino-2"
+          value="campo"
+        />
+        <label class="form-check-label" for="destino-2">Campo</label>
+
+        <input
+          class="ms-2"
+          type="radio"
+          name="destinos"
+          id="destino-3"
+          value="praia"
+        /><label class="ms-2" for="destino-3">Praia</label>
+
+        <input
+          class="ms-2"
+          type="radio"
+          name="destinos"
+          id="destino-4"
+          value="montanha"
+        /><label class="ms-2" for="destino-4">Montanha</label>
+      </fieldset>
+      <fieldset>
+        <br />
+        <label class="form-label" for="reason-textarea"
+          >Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip? <br /> </label
+        ><br /><textarea
+          class="form-control"
+          name="reason"
+          id="reason-textarea"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          placeholder="Digite sua resposta"
+        ></textarea>
+        <br />
+      </fieldset>
+      <fieldset class="mb-3">
+        <label class="form-label" for="date-input">
+          Qual a melhor data para realizar sua viagem?</label
+        ><br /><input type="date" id="date-input" />
+        <br />
+      </fieldset>
+      <fieldset class="form-check mb-3">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="checkbox-input1"
+          name="checkbox-input1"
+        /><label class="label-1" for="checkbox-input1"
+          >Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe?
+        </label>
+        <br />
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="checkbox-input2"
+          name="checkbox-input2"
+          required
+        /><label class="label-1" for="checkbox-input2"
+          >Concordo que imagens das minhas férias poderão ser usadas na
+          divulgação de concursos futuros. </label
+        ><br />
+      </fieldset>
+      <div class="buttons text-center mb-5 mt-4">
+        <button class="btn btn-primary px-5" type="submit" id="btn">
+          Enviar
+        </button>
+        <button class="btn btn-primary ms-2 px-4" id="clear-btn">
+          Limpar Dados
+        </button>
+      </div>
+    </form>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+
+    <script src="./bootstrap.min.js"></script>
+    <script src="./jquery.mim.js"></script>
+    <script src="./DatePickerX.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
