@@ -1,0 +1,11 @@
+/* .box-container {
+  justify-content: space-around;
+} */
+
+/* .box-container {
+  align-items: baseline;
+} */
+
+.box-container {
+  align-content: space-between;
+}
