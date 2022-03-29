@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_ <br>
 :white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_ <br>
 :white_check_mark: 3-4: _HTML Semântico_ <br>
-:white_check_mark: 3-5: _[Projeto - HTML & CSS]()_<br>
+:white_check_mark: 3-5: _[Projeto - HTML & CSS](https://tamireshc.github.io/trybe/project-lessons-learned/)_<br>
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -43,8 +43,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: _JavaScript - Web Storage_<br>
 :white_check_mark:_[Projeto - Meme Generator]()_<br>
 :white_check_mark: _[Projeto - Arte com Pixels]()_<br>
-:white_check_mark: _[Projeto - Lista de tarefas]()_<br>
-:white_check_mark:_[Projeto - Adivinhe a Cor]()_<br>
+:white_check_mark: _[Projeto - Lista de tarefas](https://tamireshc.github.io/trybe/todo-list/)_<br>
+:white_check_mark:_[Projeto - Adivinhe a Cor](https://tamireshc.github.io/trybe/pixel-art/)_<br>
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_<br>
 
 ##### Bloco 6: HTML & CSS avançado
