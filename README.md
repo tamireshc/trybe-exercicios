@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 4-2: _JavaScript - Array e loop For_<br>
 :white_check_mark: 4-3: _JavaScript - Lógica de Programação e Algoritmos_<br>
 :white_check_mark: 4-4: _JavaScript - Objetos e funções_<br>
-:white_check_mark: 4-5: _[Projeto - Playground Functions]()_<br>
+:white_check_mark: 4-5: _[Projeto - Playground Functions](https://github.com/tamireshc/trybe/tree/gh-pages/playgroung-functions)_<br>
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
