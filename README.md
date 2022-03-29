@@ -41,10 +41,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: _JavaScript - Trabalhando com elementos_<br>
 :white_check_mark: _JavaScript - Eventos_<br>
 :white_check_mark: _JavaScript - Web Storage_<br>
-:white_check_mark:_[Projeto - Meme Generator]()_<br>
-:white_check_mark: _[Projeto - Arte com Pixels]()_<br>
+:white_check_mark:_[Projeto - Meme Generator](https://tamireshc.github.io/trybe/meme-generator)_<br>
+:white_check_mark: _[Projeto - Arte com Pixels](https://tamireshc.github.io/trybe/pixel-art/)_<br>
 :white_check_mark: _[Projeto - Lista de tarefas](https://tamireshc.github.io/trybe/todo-list/)_<br>
-:white_check_mark:_[Projeto - Adivinhe a Cor](https://tamireshc.github.io/trybe/pixel-art/)_<br>
+:white_check_mark:_[Projeto - Adivinhe a Cor](https://tamireshc.github.io/trybe/color-guest/)_<br>
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_<br>
 
 ##### Bloco 6: HTML & CSS avançado
