@@ -73,6 +73,7 @@ function converter(arr) {
 
 const newArr = converter(arr);
 console.log(newArr);
+console.log(converter(numbers));
 
 // será necessário alterar essa linha 😉
 
