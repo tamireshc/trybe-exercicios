@@ -16,19 +16,46 @@ testingScope(true);
 // Utilize template literals para que a chamada console.log(<seu código>oddsAndEvens<seu código>); retorne "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!".
 // Bônus (opcional): tente fazer o mesmo exercício utilizando o método array.sort() . Spoiler: É possível realizar uma função que ordene qualquer array de números.
 
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+const oddsAndEvens = [12, 3, 4, 10, 30, 2];
 
 const maiorNumero = (n) => {
-  let result;
+  let result = 0;
+  let arrayOrder = [];
   for (let i = 0; i < n.length; i += 1) {
-    result = n[i + 1] > n[i] ? n[i + 1] : n[i];
-    return `o maior numero é ${result}`;
+    result > n[i] ? (result = result) : (result = n[i]);
   }
+  for (let x = 0; x < n.length; x += 1) {
+    result > n[x] ? (result = result) : (result = n[x]);
+  }
+  return `o maior numero é ${result}`;
 };
 
 console.log(maiorNumero(oddsAndEvens));
 
-console.log(oddsAndEvens); // será necessário alterar essa linha 😉
+console.log(oddsAndEvens);
+
+//oderncao de array numerica
+
+const numbers = [12, 3, 4, 10, 30, 2];
+
+const ordenacaoArrayNumerica = (array) => {
+  let arrayOrdenada = [];
+  let number;
+  for (let i = 0; i < array.length; i += 1) {
+    for (let x = 0; x < array.length; x += 1) {
+      if (array[i] < array[x]) {
+        number = array[i];
+      } else {
+      }
+    }
+  }
+  arrayOrdenada.push(number);
+
+  return arrayOrdenada;
+};
+console.log(ordenacaoArrayNumerica(numbers));
+
+// será necessário alterar essa linha 😉
 
 // Crie uma função que receba um número e retorne seu fatorial.
 const fatorial = (n) => {
@@ -48,14 +75,24 @@ const frase = 'Antônio foi no banheiro e não sabemos o que aconteceu';
 const maiorPalavra = (palavra) => {
   let fraseArray = [];
   fraseArray = palavra.split(' ');
-  let result;
-  for (let i = 0; i < fraseArray.length - 1; i += 1) {
-    result =
-      fraseArray[i].length > fraseArray[i + 1].length
-        ? fraseArray[i]
-        : fraseArray[i + 1];
+  console.log(fraseArray);
+  let lenghtArray = [];
+  for (let i = 0; i < fraseArray.length; i += 1) {
+    lenghtArray.push(fraseArray[i].length);
   }
-  return result;
+  console.log(lenghtArray);
+
+  let result = 0;
+
+  for (let x = 0; x < lenghtArray.length; x += 1) {
+    lenghtArray[x] > result ? (result = lenghtArray[x]) : (result = result);
+  }
+  console.log(`o maior tamanho é ${result}`);
+
+  let index = lenghtArray.findIndex((n) => n === result);
+
+  console.log(`o index do maior  é ${index}`);
+  return fraseArray[index];
 };
 
 console.log(maiorPalavra(frase));
@@ -82,14 +119,17 @@ const frase2 = '"Tryber x aqui!"';
 
 const trocaPalavra = (palavra, termo1, termo2) => {
   let fraseArray = [];
-  fraseArray = palavra.split(' ');
+  fraseArray = palavra.split('');
+  console.log(fraseArray);
 
-  for (let i = 0; i < fraseArray.length; i += 1) {
-    if (fraseArray[i].includes(termo1)) {
-      fraseArray;
-    }
-  }
-  return result;
+  let index = fraseArray.findIndex((n) => n === termo1);
+  console.log(index);
+  let pedaco = fraseArray.slice(index, index + 1);
+  console.log(pedaco);
+
+  fraseArray[index] = termo2;
+  const novaString = fraseArray.join('');
+  return novaString;
 };
 
-console.log(trocaPalavra(frase2, 'x', 'Bebeto'));
+console.log(trocaPalavra(frase2, 'x', 'bebeto'));
