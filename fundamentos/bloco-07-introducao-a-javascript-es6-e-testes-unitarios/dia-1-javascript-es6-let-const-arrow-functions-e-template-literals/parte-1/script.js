@@ -55,6 +55,25 @@ const ordenacaoArrayNumerica = (array) => {
 };
 console.log(ordenacaoArrayNumerica(numbers));
 
+let arr = [4, 2, 5, 1];
+let temp;
+
+function converter(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] > arr[j]) {
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  return arr;
+}
+
+const newArr = converter(arr);
+console.log(newArr);
+
 // será necessário alterar essa linha 😉
 
 // Crie uma função que receba um número e retorne seu fatorial.
