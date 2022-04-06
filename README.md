@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_ <br>
 :white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_ <br>
 :white_check_mark: 3-4: _HTML Semântico_ <br>
-:white_check_mark: 3-5: _[Projeto - HTML & CSS](https://tamireshc.github.io/trybe/project-lessons-learned/)_<br>
+:white_check_mark: 3-5: _[Projeto -  Lessons Learned](https://tamireshc.github.io/trybe/project-lessons-learned/)_<br>
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -59,19 +59,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_<br>
-:white_check_mark: 7-2: _JavaScript ES6 - Objects_<br>
-- [ ] 7-3: _Testes unitários em JavaScript_
+:white_check_mark: 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_<br>
+:white_check_mark: 7-3: _Primeiros passos em Jest_<br> 
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [ ] 8-6: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: JavaScript e Testes Assíncronos
 
 - [ ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript - Fetch API e async/await
