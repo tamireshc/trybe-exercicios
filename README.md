@@ -61,7 +61,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_<br>
 :white_check_mark: 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_<br>
 :white_check_mark: 7-3: _Primeiros passos em Jest_<br> 
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+:white_check_mark: 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tamireshc/trybe/tree/gh-pages/unit-test)_
 
 ##### Bloco 8: JavaScript ES6
 
