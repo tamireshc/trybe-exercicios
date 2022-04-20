@@ -1,0 +1,28 @@
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  padding: 40px;
+}
+ol {
+  text-align: center;
+}
+
+li {
+  padding: 2px;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+
+li:nth-child(even) {
+  background: rgb(234, 230, 230);
+}
