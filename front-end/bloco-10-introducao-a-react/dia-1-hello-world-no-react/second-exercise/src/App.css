@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: #c5f8b8;
+  color: rgb(71, 69, 69);
+  padding: 30px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #c5f8b8;
+  color: rgb(71, 69, 69);
+  padding: 30px;
+  text-align: right;
+}
+
+.ulstyle li {
+  list-style: none;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.ulstyle {
+  background-color: rgb(221, 221, 220);
+  text-align: center;
+  padding: 80px;
+}
