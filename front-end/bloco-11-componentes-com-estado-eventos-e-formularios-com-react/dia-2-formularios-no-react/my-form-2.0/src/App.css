@@ -1,0 +1,11 @@
+.App {
+  margin: 10px;
+}
+label {
+  display: block;
+  margin-right: 10px;
+}
+
+input {
+  display: block;
+}
