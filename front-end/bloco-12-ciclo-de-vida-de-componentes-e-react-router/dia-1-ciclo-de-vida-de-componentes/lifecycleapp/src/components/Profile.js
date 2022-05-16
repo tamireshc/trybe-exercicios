@@ -29,9 +29,9 @@ class Profile extends React.Component {
   }
 
 
-  // componentWillUnmount() {
-  //   alert('Você ocultou seu perfil');
-  // }
+  componentWillUnmount() {
+    alert('Você ocultou seu perfil');
+  }
 
   changeDataJson(dataJson) {
     this.setState({ api: dataJson });
