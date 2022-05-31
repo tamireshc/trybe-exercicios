@@ -84,26 +84,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 10: Introdução - React
 
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+:white_check_mark: 10-1: _'Hello, world!' no React!_<br>
+:white_check_mark: 10-2: _Componentes React_<br>
+:white_check_mark: 10-3: _[Projeto - Sistema Solar](https://solar-system-three.vercel.app/)_<br>
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Components com estado e eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 12-3: _[Projeto - Tryunfo]()_
+:white_check_mark: 11-1: _Components com estado e eventos_<br>
+:white_check_mark: 11-2: _Formulários no React_<br>
+:white_check_mark: 12-3: _[Projeto - Tryunfo](https://tryunfo-seven.vercel.app/)_<br>
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 12-1: _Ciclo de vida de componentes em React_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+:white_check_mark: 12-1: _Ciclo de vida de componentes em React_<br>
+:white_check_mark: 12-2: _React Router_<br>
+:white_check_mark: 12-3: _[Projeto - TrybeTunes](https://trybetunes-beta.vercel.app/)_<br>
 
 ##### Bloco 13: Metodologias Ágeis
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+:white_check_mark: 13-1: _Metodologias Ágeis_<br>
+:white_check_mark: 13-2: _[Projeto - Frontend Online Store]()_<br>
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
