@@ -107,10 +107,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _Testando em React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+:white_check_mark: 14-1: _RTL - Primeiros passos_<br>
+:white_check_mark: 14-2: _RTL - Mocks e Inputs_<br>
+:white_check_mark: 14-3: _Testando em React Router_<br>
+:white_check_mark: 14-4: _[Projeto - Testes em React](https://github.com/tamireshc/portfolio/tree/gh-pages/react-testing-library/tests)_<br>
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
