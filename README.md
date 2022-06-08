@@ -103,7 +103,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 13: Metodologias Ágeis
 
 :white_check_mark: 13-1: _Metodologias Ágeis_<br>
-:white_check_mark: 13-2: _[Projeto - Frontend Online Store]()_<br>
+:white_check_mark: 13-2: _[Projeto - Frontend Online Store](https://shopping-online-alpha.vercel.app/)_<br>
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
