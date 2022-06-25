@@ -77,7 +77,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 9-1: _JavaScript Assíncrono e Callbacks_ <br>
 :white_check_mark: 9-2: _JavaScript - Fetch API e async/await <br>
 :white_check_mark: 9-3: _Jest - Testes Assíncronos <br>
-:white_check_mark: _[Projeto - Carrinho de Compras](https://tamireshc.github.io/trybe/shopping-cart/)_<br>
+:white_check_mark: 9-4: _[Projeto - Carrinho de Compras](https://tamireshc.github.io/trybe/shopping-cart/)_<br>
 
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
