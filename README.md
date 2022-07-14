@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_ <br>
 :white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_ <br>
 :white_check_mark: 3-4: _HTML Semântico_ <br>
-:white_check_mark: 3-5: _[Projeto -  Lessons Learned](https://tamireshc.github.io/trybe/project-lessons-learned/)_<br>
+:white_check_mark: 3-5: _[Projeto -  Lessons Learned](https://tamireshc.github.io/portfolio/project-lessons-learned/)_<br>
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -41,10 +41,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 5-2:  _JavaScript - Trabalhando com elementos_<br>
 :white_check_mark: 5-3:  _JavaScript - Eventos_<br>
 :white_check_mark: 5-4:  _JavaScript - Web Storage_<br>
-:white_check_mark: 5-5: _[Projeto - Meme Generator](https://tamireshc.github.io/trybe/meme-generator)_<br>
-:white_check_mark: 5-6: _[Projeto - Arte com Pixels](https://tamireshc.github.io/trybe/pixel-art/)_<br>
-:white_check_mark: 5-7:  _[Projeto - Lista de tarefas](https://tamireshc.github.io/trybe/todo-list/)_<br>
-:white_check_mark: 5-8: _[Projeto - Adivinhe a Cor](https://tamireshc.github.io/trybe/color-guest/)_<br>
+:white_check_mark: 5-5: _[Projeto - Meme Generator](https://tamireshc.github.io/portfolio/meme-generator/)_<br>
+:white_check_mark: 5-6: _[Projeto - Arte com Pixels](https://tamireshc.github.io/portfolio/pixel-art/)_<br>
+:white_check_mark: 5-7:  _[Projeto - Lista de tarefas](https://tamireshc.github.io/portfolio/todo-list/)_<br>
+:white_check_mark: 5-8: _[Projeto - Adivinhe a Cor](https://tamireshc.github.io/portfolio/color-guest/)_<br>
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_<br>
 
 ##### Bloco 6: HTML & CSS avançado
@@ -54,7 +54,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 6-3:_CSS Flexbox - Part 1_<br>
 :white_check_mark: 6-4: _CSS Flexbox - Part 2_<br>
 :white_check_mark: 6-5: _CSS Responsivo - Mobile First_ <br>
-:white_check_mark: 6-6: _[Projeto - Trybewarts](https://tamireshc.github.io/trybe/trybewarts/)_<br>
+:white_check_mark: 6-6: _[Projeto - Trybewarts](https://tamireshc.github.io/portfolio/trybewarts/)_<br>
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -77,7 +77,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 9-1: _JavaScript Assíncrono e Callbacks_ <br>
 :white_check_mark: 9-2: _JavaScript - Fetch API e async/await <br>
 :white_check_mark: 9-3: _Jest - Testes Assíncronos <br>
-:white_check_mark: 9-4: _[Projeto - Carrinho de Compras](https://tamireshc.github.io/trybe/shopping-cart/)_<br>
+:white_check_mark: 9-4: _[Projeto - Carrinho de Compras](https://tamireshc.github.io/portfolio/shopping-cart/)_<br>
 
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
