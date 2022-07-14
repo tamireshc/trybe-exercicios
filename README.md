@@ -123,14 +123,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+:white_check_mark: 16-1: _[Projeto - Jogo de Trivia](https://trivia-six-rust.vercel.app)_<br>
 
 ##### Bloco 17: Context API e React Hooks
 
 :white_check_mark: 17-1: _Context API do React_<br>
 :white_check_mark: 17-2: _React Hooks - useState e useContext_<br>
 :white_check_mark: 17-3: _React Hooks - useEffect e Hooks customizados_<br>
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+:white_check_mark: _[Projeto - StarWars Datatable com Context API e Hooks](https://starwars-planets-six.vercel.app/)_<br>
 
 ##### Bloco 18: Projeto App de Receitas
 
@@ -185,13 +185,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 24-4: _Testando APIs com Testes de Integração
 - [ ] 24-5: _[Projeto - Api de Blogs]()_
 
-##### Bloco 25: Aggregation Framework ** parei
+##### Bloco 25: Aggregation Framework 
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Intro - NodeJS ** parei
 
 - [ ] 26-1: _NodeJS - Introdução_
 - [ ] 26-2: _NodeJS - Fluxo Assíncrono_
