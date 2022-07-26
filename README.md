@@ -80,7 +80,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 9-4: _[Projeto - Carrinho de Compras](https://tamireshc.github.io/portfolio/shopping-cart/)_<br>
 
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 10: Introdução - React
 
@@ -134,7 +134,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto App de Receitas
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+:white_check_mark:_[Projeto - App de Receitas]()_<br>
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
