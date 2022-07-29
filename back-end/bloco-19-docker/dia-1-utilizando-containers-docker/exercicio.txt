@@ -1,0 +1,69 @@
+1. 🚀 No [Docker Hub](https://hub.docker.com/search?q=&type=image), utilizando a caixa de busca *(`"Search for great content"`)*, **busque pela imagem da Distribuição Linux `Debian`**.
+2. 🚀 Uma vez que encontrar a **imagem oficial**, acesse-a (clicando em seu card) e verifique na página de detalhes. Confira se existe algum comando para baixar a imagem localmente sem ter que criar um `container` para isso.
+3. 🚀 **Baixe a imagem utilizando a `tag`: `stable-slim`**, que é uma versão reduzida da distribuição.
+
+```jsx
+docker pull debian:**stable-slim**
+```
+
+1. 🚀 Após baixar a imagem para seu computador local, **crie e execute um `container`** no modo interativo utilizando essa imagem como referência — não esqueça referenciar a `tag`.
+
+```jsx
+docker container run -it debian:**stable-slim**
+```
+
+1. 🚀 No terminal, você deve conseguir rodar o **comando `cat /etc/*-release`**, que vai retornar os dados da distribuição `Debian` que está sendo rodada dentro do `container`.
+
+```jsx
+~ docker container run -it debian:stable-slim
+root@e1ab10502a4f:/# cat /etc/*-release
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"....
+```
+
+1. 🚀 **Encerre o terminal**.
+
+```jsx
+exit
+```
+
+1. 🚀 **Verifique na sua lista de containers** qual `container` se refere ao exercício que acabou de praticar.
+
+```jsx
+docker ps -a
+```
+
+1. 🚀 **Inicie o mesmo `container` novamente**, sem criar outro. Valide se ele está ativo na lista de containers.
+
+```jsx
+docker container start e1ab10502a4f
+```
+
+1. 🚀 **Retome o `container`** que foi criado anteriormente neste exercício.
+
+```jsx
+docker attach e1ab10502a4f
+```
+
+1. 🚀 **Rode o comando `cat /etc/debian_version`** que deve retornar a versão atual do sistema do `container`.
+
+```jsx
+➜  ~ docker container attach e1ab10502a4f
+root@e1ab10502a4f:/# cat /etc/debian_version
+11.4
+
+```
+
+1. 🚀 **Encerre o terminal**.
+
+```jsx
+root@e1ab10502a4f:/# exit
+exit
+```
+
+1. 🚀 **Remova somente o `container` criado para esse exercício**.
+
+```jsx
+docker container rm -f e1ab10502a4f
+```
+
+1. [BÔNUS] **Crie e rode de modo interativo em modo 'Cleanup'**, a imagem `andrius/ascii-patrol`.
