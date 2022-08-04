@@ -139,17 +139,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
-- [ ] 19-1: _Introdução - Back-end_
-- [ ] 19-2:_Utilizando Containers - Docker_
-- [ ] 19-3: _Manipulando Imagens no Docker_
-- [ ] 19-4: _Orquestrando Containers com Docker Compose_
-- [ ] 19-5: _Projeto - _Docker Todo-List_
+:white_check_mark: 19-1:_Utilizando Containers - Docker_<br>
+:white_check_mark: 19-2: _Manipulando Imagens no Docker_<br>
+:white_check_mark: 19-3: _Orquestrando Containers com Docker Compose_<br>
+:white_check_mark: 19-4: _[Projeto _Docker Todo-List](https://github.com/tamireshc/backend/tree/master/docker-todo-list)_ <br>
 
 ##### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
+:white_check_mark: 20-1: _Banco de dados SQL_<br>
+- [ ] 20-2: _Encontrando dados em um banco de dados_<br>
+- [ ] 20-3: _Filtrando dados de forma específica_<br>
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
