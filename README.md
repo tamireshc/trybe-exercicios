@@ -134,7 +134,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto App de Receitas
 
-:white_check_mark:_[Projeto - App de Receitas]()_<br>
+:white_check_mark:_[Projeto - App de Receitas](https://recipe-app-chi-ten.vercel.app/)_<br>
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
@@ -147,9 +147,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 20: Introdução à SQL
 
 :white_check_mark: 20-1: _Banco de dados SQL_<br>
-- [ ] 20-2: _Encontrando dados em um banco de dados_<br>
-- [ ] 20-3: _Filtrando dados de forma específica_<br>
-- [ ] 20-4: _Manipulando tabelas_
+:white_check_mark: 20-2: _Encontrando dados em um banco de dados_<br>
+:white_check_mark: 20-3: _Filtrando dados de forma específica_<br>
+:white_check_mark: 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização
@@ -168,7 +168,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 22-5: _Express - Middlewares_
 - [ ] 22-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 23: Introdução - NoSQL 
+##### Bloco 23: NODE.js: Camada de serviços e Arquitetura Rest e Restful
 
 - [ ] 23-1: _Arquitetura de Software - Camada de Model_
 - [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
@@ -176,7 +176,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
 - [ ] 23-5: _[Projeto - Store Manager]()
 
-##### Bloco 24: Updates
+##### Bloco 24: Node.js: ORM e Autenticação
 
 - [ ] 24-1: _Introdução - Node.js: ORM e Autenticação_
 - [ ] 24-2: _ORM - Associations_
@@ -184,32 +184,33 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 24-4: _Testando APIs com Testes de Integração
 - [ ] 24-5: _[Projeto - Api de Blogs]()_
 
-##### Bloco 25: Aggregation Framework 
+##### Bloco 25: Deployment 
 
 - [ ] 25-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 26: Intro - NodeJS ** parei
+##### Bloco 26: TypeScript
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [ ] 26-1: _Introdução - TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: Programação Orientada a Objetos(POO) e SOLID
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: NodeJS ** parei
 
 - [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
 - [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
@@ -233,6 +234,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 32-4: _Boas práticas na escrita de testes_
 - [ ] 32-3: _[Projeto - API de Blogs]()_
 
+
+## Ciência da Computação :hourglass_flowing_sand:
+
 ##### Bloco 33: Sockets
 
 - [ ] 30-1: _Sockets - TCP/UDP & NET_
@@ -242,8 +246,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 34: Projeto
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
-
-## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
