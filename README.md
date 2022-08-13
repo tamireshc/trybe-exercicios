@@ -149,13 +149,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 20-1: _Banco de dados SQL_<br>
 :white_check_mark: 20-2: _Encontrando dados em um banco de dados_<br>
 :white_check_mark: 20-3: _Filtrando dados de forma específica_<br>
-:white_check_mark: 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+:white_check_mark: 20-4: _Manipulando tabelas_<br>
+:white_check_mark: 20-5: _[Projeto - All For One](https://github.com/tamireshc/backend/tree/master/mySQL-all-for-one)_<br>
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs_
+:white_check_mark: _Funções mais usadas no SQL_<br>
+:white_check_mark: _Descomplicando JOINs_<br>
 - [ ] 21-3: _Tranforme idéias em banco de dados_
 - [ ] 21-4: _[Projeto - One for All]()_
 
@@ -195,7 +195,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 26-1: _Introdução - TypeScript_
 - [ ] 26-2: _Tipagem Estática e Generics_
 - [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith()_
+- [ ] 26-4: _[Projeto - Trybe Smith()]_
 
 ##### Bloco 27: Programação Orientada a Objetos(POO) e SOLID
 
