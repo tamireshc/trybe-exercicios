@@ -154,8 +154,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização
 
-:white_check_mark: _Funções mais usadas no SQL_<br>
-:white_check_mark: _Descomplicando JOINs_<br>
+:white_check_mark: 21-1: _Funções mais usadas no SQL_<br>
+:white_check_mark: 21-2: _Descomplicando JOINs_<br>
 - [ ] 21-3: _Tranforme idéias em banco de dados_
 - [ ] 21-4: _[Projeto - One for All]()_
 
