@@ -156,8 +156,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :white_check_mark: 21-1: _Funções mais usadas no SQL_<br>
 :white_check_mark: 21-2: _Descomplicando JOINs_<br>
-- [ ] 21-3: _Tranforme idéias em banco de dados_
-- [ ] 21-4: _[Projeto - One for All]()_
+:white_check_mark: 21-3: _Tranforme idéias em banco de dados_<br>
+:white_check_mark: 21-4: _[Projeto - One for All](https://github.com/tamireshc/backend/tree/master/mysql-one-for-all)_
 
 ##### Bloco 22: Introdução ao desenvolvimento web com Node.js
 
@@ -210,32 +210,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-##### Bloco 29: NodeJS ** parei
+##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 29-1: _Introdução - NoSQL_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 
-##### Bloco 30: Introdução - Deploy
+##### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 30-1: _Mongoose e arquitetura MSC(camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC(camada Service e Controller)s_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
-##### Bloco 31: Projeto
+##### Bloco 31: Projeto - App de Delivery
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 31-1: _[Projeto - App de Delivery]()_
 
-##### Bloco 32: Arquitetura de Software
+##### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+- [ ] 32-1: _Dia 1 - VPS_
+- [ ] 32-2: _ORM - Dia 2 - VPS_
 
-
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :hourglass_flowing_sand: ** parei aki
 
 ##### Bloco 33: Sockets
 
