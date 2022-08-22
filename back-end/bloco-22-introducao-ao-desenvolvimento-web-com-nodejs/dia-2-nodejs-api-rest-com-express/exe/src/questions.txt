@@ -1,0 +1,8 @@
+!Para que é usado o código de status 400 e 422?
+
+400 Bad Request
+422 Unprocessable Entity
+
+!Para que é usado o código de status 401?
+
+401 Unauthorized
