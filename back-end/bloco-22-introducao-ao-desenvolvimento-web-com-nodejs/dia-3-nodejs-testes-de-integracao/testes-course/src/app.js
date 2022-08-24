@@ -55,6 +55,22 @@ app.delete('/chocolates/:id', async (req, res) => {
 
 })
 
+app.put('/chocolates/:id', async (req, res) => {
+    const { id } = req.params
+    const numberId = Number(id)
+    const { name, brandId } = req.body
+    const chocolate = await cacaoTrybe.editChocolate({ numberId, name, brandId })
+    console.log(chocolate)
+    if (chocolate === null) {
+        res.status(404).json({
+            "message": "chocolate not found"
+        })
+    } else {
+        res.status(200).json({ chocolate })
+    }
+
+})
+
 
 
 module.exports = app;

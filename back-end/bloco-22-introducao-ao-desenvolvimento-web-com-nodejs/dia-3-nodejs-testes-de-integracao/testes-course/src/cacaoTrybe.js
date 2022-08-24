@@ -1,4 +1,5 @@
 const fs = require('fs').promises
+const { writeFile } = require('fs');
 const { join } = require('path')
 
 const path = 'files/cacaoTrybeFile.json';
@@ -83,6 +84,22 @@ const deleteChocolate = async (id) => {
     return newData
 }
 
+const editChocolate = async ({ numberId, name, brandId }) => {
+    const cacaoTrybe = await readcacaoTrybeFile()
+    console.log(numberId)
+    const index = cacaoTrybe.chocolates.findIndex((item) => item.id === numberId)
+    console.log(index)
+    if (index === -1) {
+        return null
+    } else {
+        cacaoTrybe.chocolates[index] = { id: numberId, name, brandId }
+        console.log(cacaoTrybe)
+        await writeCacaoTrybe(cacaoTrybe)
+        return cacaoTrybe.chocolates[index]
+    }
+
+}
+
 module.exports = {
     getAllChocolates,
     getChocolateById,
@@ -90,5 +107,6 @@ module.exports = {
     getTotalChocolates,
     getChocolateByName,
     createChocolate,
-    deleteChocolate
+    deleteChocolate,
+    editChocolate
 }
