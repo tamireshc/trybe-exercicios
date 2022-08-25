@@ -9,6 +9,7 @@ const errorHandler = require('./middlewares/error')
 const validadeRating = require('./middlewares/validadeRating')
 const validadeDifficulty = require('./middlewares/validadeDifficult')
 const validadeUser = require('./middlewares/validadeUser')
+const checkToken = require('./middlewares/checkToken')
 const crypto = require('crypto');
 
 const app = express()
@@ -21,7 +22,7 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 
 
-app.post('/activities', validadeName, validadePrice, validadeDescription, validadeCreatedAt, validadeRating, validadeDifficulty, (req, res) => {
+app.post('/activities', checkToken, validadeName, validadePrice, validadeDescription, validadeCreatedAt, validadeRating, validadeDifficulty, (req, res) => {
     const { name, price, description } = req.body
 
     const activite = ecoturismoFunctions.createActivitie({ name, price, description })

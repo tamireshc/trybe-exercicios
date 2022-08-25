@@ -3,7 +3,8 @@
     "cors": "2.8",
     "express": "^4.17.1",
     "express-async-errors": "3.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "npkill": "^0.8.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
