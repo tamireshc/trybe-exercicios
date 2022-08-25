@@ -23,7 +23,7 @@ const writeEcoturismoJsonFile = async (data) => {
 
 const createActivitie = async ({ name, price, description }) => {
     const data = await readEcoturismoJsonFile()
-    console.log(data)
+    //console.log(data)
     const newActivitie = {
         id: data.nextId,
         name,
@@ -36,6 +36,23 @@ const createActivitie = async ({ name, price, description }) => {
     return newActivitie
 }
 
+const createUser = async ({ Email, first_name, password, phone_number }) => {
+    const data = await readEcoturismoJsonFile()
+    //console.log(data)
+    const newUser = {
+        id: data.nextUser,
+        Email,
+        first_name,
+        password,
+        phone_number
+    }
+    data.users.push(newUser)
+    data.nextUser = data.nextUser + 1
+    await writeEcoturismoJsonFile(data)
+    return newUser
+}
+
 module.exports = {
-    createActivitie
+    createActivitie,
+    createUser
 }
