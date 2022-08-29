@@ -161,12 +161,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 22: Introdução ao desenvolvimento web com Node.js
 
-- [ ] 22-1: _Introdução -Node.js_
-- [ ] 22-2: _Node.js- Fluxo Assíncrono_
-- [ ] 22-3: _Mocha, Chai e Sinon_
-- [ ] 22-4: _Express - HTTP com Node.js_
-- [ ] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+:white_check_mark: 22-1: _Introdução -Node.js_<br>
+:white_check_mark: 22-2: _Node.js - API REST com Express_<br>
+:white_check_mark: 22-3: _Mocha, Chai e Sinon_<br>
+:white_check_mark: 22-4: _Express: Middlewares_<br>
+:white_check_mark: 22-5: _Express e Mysql_<br>
+:white_check_mark: 22-6: _[Projeto - Talker Manager](https://github.com/tamireshc/backend/tree/master/node-express-talker-manager)_<br>
 
 ##### Bloco 23: NODE.js: Camada de serviços e Arquitetura Rest e Restful
 
