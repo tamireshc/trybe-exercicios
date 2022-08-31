@@ -22,6 +22,7 @@ const getdataByCep = async (req, res) => {
 
             console.log(cepNumber, checkCep.logradouro, checkCep.bairro, checkCep.localidade, checkCep.uf)
             await Cep.postCep(cepNumber, checkCep.logradouro, checkCep.bairro, checkCep.localidade, checkCep.uf)
+            await Cep.postBairro(checkCep.bairro, checkCep.localidade, checkCep.uf)
             res.status(404).json({ "error": { "code": "notFound", "message": "CEP não encontrado e foi cadastrado" } })
         }
     } else {

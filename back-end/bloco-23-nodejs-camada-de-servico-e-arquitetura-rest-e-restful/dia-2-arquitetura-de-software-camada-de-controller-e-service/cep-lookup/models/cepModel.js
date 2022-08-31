@@ -17,7 +17,15 @@ const postCep = async (cepNumber, logradouro, bairro, localidade, uf) => {
 
 }
 
+const postBairro = async (bairro, localidade, uf) => {
+    await connection.execute(
+        'INSERT INTO cep_lookup2.bairros ( bairro, localidade, uf) VALUES(?,?,?)',
+        [bairro, localidade, uf]
+    )
+}
+
 module.exports = {
     getDataCep,
     postCep,
+    postBairro,
 }

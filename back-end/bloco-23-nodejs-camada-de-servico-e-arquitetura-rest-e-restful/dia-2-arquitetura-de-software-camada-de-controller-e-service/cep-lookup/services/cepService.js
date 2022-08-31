@@ -15,8 +15,13 @@ const postCep = async (cepNumber, logradouro, bairro, localidade, uf) => {
     await Cep.postCep(cepNumber, logradouro, bairro, localidade, uf)
 }
 
+const postBairro = async (bairro, localidade, uf) => {
+    await Cep.postBairro(bairro, localidade, uf)
+}
+
 module.exports = {
     getDatacep,
-    postCep
+    postCep,
+    postBairro,
 
 }
