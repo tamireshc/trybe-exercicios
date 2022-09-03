@@ -71,8 +71,8 @@ app.get('/drivers/:id', async (req, res) => {
 });
 
 app.post('/drivers', async (req, res) => {
-  const { name } = req.body;
-  const result = await driverModel.createdNewDriver(name);
+  const { name, carIds } = req.body;
+  const result = await driverService.createDriver(name, carIds);
   res.status(201).json(result);
 });
 
