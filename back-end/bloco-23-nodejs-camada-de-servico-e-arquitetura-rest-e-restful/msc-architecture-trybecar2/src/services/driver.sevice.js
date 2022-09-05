@@ -33,14 +33,21 @@ const getcarsById = async (carIds) => {
 const schemaName = Joi.object({
     name: Joi.string().min(3).required(),
 });
+
+const schemaFormatCarIds = Joi.array();
+
 const schemaCarIds = Joi.array().items(Joi.object());
 
 const valideIds = async (carIds, namex) => {
     const carsResult = await getcarsById(carIds);
     console.log(carsResult);
     const { error } = schemaCarIds.validate(carsResult);
-    console.log(error);
-    if (error) return { type: 'INVALID_ID', message: error.message };
+    if (error) {
+        return {
+            type: 'CAR_NOT_FOUND',
+            message: 'Some car is not found',
+        };
+    }
     const resultId = await driverModel.createdNewDriver(namex);
     const { id, name } = await driverModel.findDriverById(resultId);
     return {
@@ -51,15 +58,26 @@ const valideIds = async (carIds, namex) => {
     };
 };
 
-const createDriver = async (namex, carIds) => {
-    if (namex && !carIds) {
-        const { error } = schemaName.validate({ namex });
-        if (error) return { type: 'INVALID_VALUE', message: error.message };
-        const result = await driverModel.createdNewDriver(namex);
-        return { type: null, message: result };
+const valideName = async (name) => {
+    const { error } = schemaName.validate({ name });
+    if (error) return { type: 'INVALID_VALUE', message: error.message };
+    const result = await driverModel.createdNewDriver(name);
+    return { type: null, message: result };
+};
+
+const createDriver = async (name, carIds) => {
+    if (name && !carIds) {
+        return valideName(name);
     }
     if (carIds) {
-        return valideIds(carIds, namex);
+        const { error } = schemaFormatCarIds.validate(carIds);
+        if (error) {
+            return {
+                type: 'INVALID_VALUE',
+                message: error.message,
+            };
+        }
+        return valideIds(carIds, name);
     }
 };
 
@@ -67,4 +85,5 @@ module.exports = {
     getWaitingDriverTravels,
     getDrivers,
     createDriver,
+    getcarsById,
 };
