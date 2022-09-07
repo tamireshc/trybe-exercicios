@@ -81,9 +81,18 @@ const createDriver = async (name, carIds) => {
     }
 };
 
+const findDriverById = async (id) => {
+    const driver = await driverModel.findDriverById(id);
+    if (!driver) {
+        return { type: 'DRIVER_NOT_FOUND', message: 'motorista not found' };
+    }
+    return { type: null, message: driver };
+};
+
 module.exports = {
     getWaitingDriverTravels,
     getDrivers,
     createDriver,
     getcarsById,
+    findDriverById,
 };

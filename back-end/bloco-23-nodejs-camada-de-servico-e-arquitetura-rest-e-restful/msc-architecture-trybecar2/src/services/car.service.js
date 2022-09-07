@@ -21,6 +21,15 @@ const createCar = async ({ model, color, licensePlate }) => {
     return { type: null, message: dataCarCreated };
 };
 
+const findCarById = async (id) => {
+    const result = await carModel.findCarById(id);
+    if (!result) {
+        return { type: 'CAR_NOT_FOUND', message: 'car not found' };
+    }
+    return { type: null, message: result };
+};
+
 module.exports = {
     createCar,
+    findCarById,
 };
