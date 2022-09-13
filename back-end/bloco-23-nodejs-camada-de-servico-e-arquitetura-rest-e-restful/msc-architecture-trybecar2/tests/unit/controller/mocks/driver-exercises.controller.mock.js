@@ -31,25 +31,6 @@ const resultCreateDriverWhithcardIds = {
     ]
 }
 
-//   const resultCreateDriverWhithcardIds = {
-//     id: 17,
-//     name: "Gus",
-//     cars: [
-//       {
-//         id: 1,
-//         model: "Renault Sandero",
-//         color: "Branco",
-//         licensePlate: "NCA-0956"
-//       },
-//       {
-//         id: 2,
-//         model: "Volkswagen Gol",
-//         color: "Vermelho",
-//         licensePlate: "DZG-4376"
-//       }
-//     ]
-//   }
-
 module.exports = {
     allDrivers,
     resultCreateDriverWhithcardIds
