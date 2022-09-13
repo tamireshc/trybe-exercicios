@@ -173,7 +173,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 23-1: _Arquitetura de Software - Camada Model_<br>
 :white_check_mark: 23-2: _Arquitetura de Software - Camada Service_<br>
 :white_check_mark: 23-3: _Arquitetura de Software - Camada Controller_<br>
-:white_check_mark: 23-4: _[Projeto - Store Manager]()_<br>
+:white_check_mark: 23-4: _[Projeto - Store Manager](https://github.com/tamireshc/backend/tree/master/store-manager)_<br>
 
 ##### Bloco 24: Node.js: ORM e Autenticação
 
