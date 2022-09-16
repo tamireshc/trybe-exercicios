@@ -1,4 +1,4 @@
-const { Surgerie } = require('../models');
+const { Surgerie, Patient } = require('../models');
 
 const listSurgerieForDoctor = async (doctor) => {
     // console.log('doctor', doctor, typeof doctor);
@@ -10,6 +10,7 @@ const listSurgerieForDoctor = async (doctor) => {
     }
     const result = await Surgerie.findOne({
         where: { doctor },
+        include: [{ model: Patient, as: 'Patients', through: { attributes: [] } }],
     });
     return { type: null, message: result };
 };
