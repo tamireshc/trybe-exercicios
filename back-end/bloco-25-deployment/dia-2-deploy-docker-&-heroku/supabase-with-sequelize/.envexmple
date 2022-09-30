@@ -1,0 +1,5 @@
+PASSWORD_POSTGRES= # aqui vai a senha que você criou
+HOST= # o link de onde o banco está hospedado
+DATABASE=postgres
+DB_USERNAME=postgres
+DB_PORT= # porta que o Supabase fornece
