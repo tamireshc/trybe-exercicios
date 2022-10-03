@@ -13,3 +13,13 @@ return l*l
 }
 
 console.log(area(2))
+
+let numero:number
+
+const atribuirNumero =()=>{
+    numero = 7
+}
+
+atribuirNumero()
+
+console.log(numero)
