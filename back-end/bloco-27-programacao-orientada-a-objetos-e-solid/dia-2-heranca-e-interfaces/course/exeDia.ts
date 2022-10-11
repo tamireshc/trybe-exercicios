@@ -5,16 +5,21 @@ class Person {
         this.valideAge(_birthday)
     }
 
-    get personName(): string {
+    get name(): string {
         return this._name
     }
 
-    set personName(value) {
+    set name(value: string) {
         this.valideName(value)
         this._name = value
     }
 
-    get age() {
+    set birthday(value: Date) {
+        this.valideBirthday(value)
+        this._birthday = value
+    }
+
+    get age(): number {
         const age = new Date().getTime() - this._birthday.getTime()
         return age / 1000 / 60 / 60 / 24 / 365
     }
@@ -45,7 +50,7 @@ class Person {
 
 const Tamires = new Person('tamires', new Date(1987, 10, 19))
 const Joao = new Person('joao', new Date(2000, 10, 1))
-console.log(Joao.personName)
+console.log(Joao.name)
 
 class Estudante extends Person {
     private _matricula: string;
@@ -153,4 +158,4 @@ console.log(teacher1.age)
 console.log(teacher1.generateRegistration())
 console.log(teacher1.salary)
 console.log(teacher1.subject.subname)
-console.log(teacher1.personName)
+console.log(teacher1.name)

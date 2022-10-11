@@ -28,38 +28,36 @@ console.log(maria.somaNotas())
 console.log(maria.mediaNotas())
 
 class Cliente {
-    private nome: string;
+    protected nome: string;
     constructor(n: string) {
         this.nome = n
     }
 }
 
 class ItemDoPedido {
-    private nome: string;
-    private preco: number
+    private _nome: string;
+    private _preco: number
 
     constructor(n: string, p: number) {
-        this.nome = n;
-        this.preco = p
+        this._nome = n;
+        this._preco = p
     }
-    get getPreco(): number {
-        return this.preco
-    }
-
-    set setPreco(newPreco: number) {
-        this.preco = newPreco
+    get preco(): number {
+        return this._preco
     }
 
-
+    set preco(newPreco: number) {
+        this._preco = newPreco
+    }
 }
 
 class Pedido {
-    private cliente: string;
+    private cliente: Cliente;
     private formaPagamento: string;
     private itensConsumidos: ItemDoPedido[]
     private desconto: number;
 
-    constructor(c: string, fp: string, ic: ItemDoPedido[], d: number) {
+    constructor(c: Cliente, fp: string, ic: ItemDoPedido[], d: number) {
         this.cliente = c;
         this.formaPagamento = fp;
         this.itensConsumidos = ic;
@@ -67,7 +65,7 @@ class Pedido {
     }
 
     total = (): number => {
-        const valores = this.itensConsumidos.map((item) => item.getPreco)
+        const valores = this.itensConsumidos.map((item) => item.preco)
         console.log(valores)
         const total = valores.reduce((a, b) => a + b)
         return total
@@ -78,8 +76,8 @@ class Pedido {
     }
 
 }
-
-const pedido1 = new Pedido('joana', 'debito', [new ItemDoPedido('cafe', 10), new ItemDoPedido('pao', 5)], 0.1)
+const cliente1 = new Cliente('joana')
+const pedido1 = new Pedido(cliente1, 'debito', [new ItemDoPedido('cafe', 10), new ItemDoPedido('pao', 5)], 0.1)
 console.log(pedido1.total())
 console.log(pedido1.totalComDesconto())
 

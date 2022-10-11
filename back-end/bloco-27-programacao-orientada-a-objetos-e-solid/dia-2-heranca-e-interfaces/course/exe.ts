@@ -1,17 +1,26 @@
 class Superclass {
-    constructor(protected isSuper: boolean = true) {
+
+    constructor(public _isSuper: boolean = true) {
     }
 
-    protected sayHellow1() {
+    public sayHellow() {
         console.log('olá mundo')
     }
 
-    get getIsSuper() {
-        return this.isSuper
+    // protected sayHellow() {
+    //     console.log('olá mundo')
+    // }
+
+    // private sayHellow() {
+    //     console.log('olá mundo')
+    // }
+
+    get isSuper() {
+        return this._isSuper
     }
 
-    set setIsSuper(valor: boolean) {
-        this.isSuper = valor
+    set isSuper(valor: boolean) {
+        this._isSuper = valor
     }
 }
 
@@ -22,17 +31,18 @@ class Subclass extends Superclass {
     }
 
     public sayHellow2() {
-        this.sayHellow1()
+        this.sayHellow()
 
     }
 }
 
 const myFunc = (obj: Superclass) => {
-    if (obj.getIsSuper === true) {
+    if (obj.isSuper === true) {
         console.log('super')
     } else {
         console.log('sub')
     }
+
 }
 
 const super1 = new Superclass()
