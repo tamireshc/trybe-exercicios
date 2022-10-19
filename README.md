@@ -198,12 +198,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 27: Programação Orientada a Objetos(POO) e SOLID
 
-- [ ] 27-1: _Introdução à Orientação a Objetos_
-- [ ] 27-2: _Herança e Interfaces_
-- [ ] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+:white_check_mark: 27-1: _Introdução à Orientação a Objetos_<br>
+:white_check_mark: 27-2: _Herança e Interfaces_<br>
+:white_check_mark: 27-3: _Polimorfismo_<br>
+:white_check_mark: 27-4: _SOLID - Introdução e Princípios S, O e D_<br>
+:white_check_mark: 27-5: _SOLID - Princípios L e I_<br>
+:white_check_mark: 27-6: _[Projeto - Trybers and Dragons](https://github.com/tamireshc/backend/tree/master/POO-trybers-and-dragons)_<br>
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
