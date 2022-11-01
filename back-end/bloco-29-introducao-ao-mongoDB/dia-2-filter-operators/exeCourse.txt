@@ -1,0 +1,28 @@
+Selecione e faça a contagem dos restaurantes presentes nos bairros Queens, Staten Island e Bronx. (utilizando o atributo borough)
+>db.restaurants.find({borough:{$in:['Queens', 'Staten', 'Island', 'Bronks']}})
+
+Selecione e faça a contagem dos restaurantes que não possuem culinária do tipo American. (utilizando o atributo cuisine)
+> db.restaurants.find({cuisine:{$not:{$eq:'American'}}})
+
+Selecione e faça a contagem dos restaurantes que possuem avaliação maior ou igual a 8. (utilizando o atributo rating)
+db.restaurants.find({rating:{$gte:8}})
+
+Selecione e faça a contagem dos restaurantes que possuem avaliação menor que 4.
+> db.restaurants.find({rating:{$lt:4}})
+
+Selecione e faça a contagem dos restaurantes que não possuem as avaliações 5, 6 e 7.
+> db.restaurants.find({rating:{$nin:[5,6,7]}})
+
+Ordene alfabeticamente os restaurantes pelo nome (atributo name).
+> db.restaurants.find({},{name:1}).sort({'name':1})
+
+Ordene os restaurantes de forma decrescente baseado nas avaliações.
+>db.restaurants.find({},{name:1, rating:1, _id:0}).sort({'rating':-1})
+
+Remova o primeiro restaurante que possua culinária do tipo Ice Cream, Gelato, Yogurt, Ices.
+db.restaurants.deleteOne({cuisine:'Ice Cream, Gelato, Yogurt, Ices'})
+{ acknowledged: true, deletedCount: 1 }
+
+Remova todos os restaurantes que possuem culinária do tipo American.
+> db.restaurants.deleteMany({cuisine:'American'})
+{ acknowledged: true, deletedCount: 20 }
