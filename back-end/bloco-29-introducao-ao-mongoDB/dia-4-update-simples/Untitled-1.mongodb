@@ -86,3 +86,25 @@ db.xmen.updateMany({$and:[
     ]},
     {$set:{areas:["Outside"]}, 
     $currentDate:{lastUpdate:{$type:'timestamp'}}})
+
+
+use('class2');
+db.movies.insertMany([ { "title": "Batman", "category": [ "action", "adventure" ], "imdbRating": 7.6, "budget": 35 }, { "title": "Godzilla", "category": [ "action", "adventure", "sci-fi" ], "imdbRating": 6.6 }, { "title": "Home Alone", "category": [ "family", "comedy" ], "imdbRating": 7.4, } ])
+
+use('class2');
+db.movies.update({title: "Batman"}, {$set:{imdbRating: 7.7}})
+
+use('class2');
+db.movies.update({title: "Home Alone"}, {$set:{imdbRating: 5.5,budget:15 }})
+
+use('class2');
+db.movies.update({title: "Batman"}, {$inc: {imdbRating:2}})
+
+use('class2');
+db.movies.update({title: "Batman"}, {$mul: {imdbRating:4}})
+
+use('class2');
+db.movies.updateMany({}, {$set:{sequels:0}})
+
+use('class2');
+db.movies.updateMany({$or:[{title: "Batman"}, {title: "Home Alone"}]}, {$min:{imdbRating:17}})
