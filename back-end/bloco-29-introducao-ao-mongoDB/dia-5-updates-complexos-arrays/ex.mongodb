@@ -1,0 +1,109 @@
+use('cinema');
+db.movies.drop();
+db.movies.insertMany([
+  {
+    title: "Batman",
+    category: [
+      "action",
+      "adventure",
+    ],
+    imdbRating: 7.7,
+    budget: 35,
+  },
+  {
+    title: "Godzilla",
+    category: [
+      "action",
+      "adventure",
+      "sci-fi",
+    ],
+    imdbRating: 6.6,
+    budget: 1,
+  },
+  {
+    title: "Home Alone",
+    category: [
+      "family",
+      "comedy",
+    ],
+    imdbRating: 7.4,
+  },
+]);
+
+use('cinema');
+db.movies.updateOne({title: "Batman"}, {$push:{category:"superhero"}})
+
+use('cinema');
+db.movies.updateOne({title: "Batman"}, 
+{$push:{category:{$each:["villain","comic-based"]}}})
+
+use('cinema');
+db.movies.updateOne({title: "Batman"}, 
+{$pull:{category:"action"}})
+
+use('cinema');
+db.movies.updateOne({title: "Batman"}, 
+{$pop:{category:-1}})
+
+use('cinema');
+db.movies.updateOne({title: "Batman"}, 
+{$pop:{category:1}})
+
+use('cinema');
+db.movies.updateOne({title: "Batman"}, 
+{$addToSet:{category:"action"}})
+
+use('cinema');
+db.movies.updateMany({title:{$in:["Batman", "Home Alone"]}}, 
+{$addToSet:{category:"90's"}})
+
+use('cinema');
+db.movies.updateOne({title: "Home Alone"}, 
+{$set:{cast:[{
+  "actor": "Macaulay Culkin",
+  "character": "Kevin"
+},
+{
+  "actor": "Joe Pesci",
+  "character": "Harry"
+},
+{
+  "actor": "Daniel Stern"
+}]}})
+
+use('cinema');
+db.movies.updateOne({title:"Home Alone"}, 
+{$set:{"cast.$[elemento].character":"Marv"}}, 
+{arrayFilters: [ { "elemento.actor": "Daniel Stern" } ]})
+
+use('cinema');
+db.movies.updateOne({title: "Batman"},{$set:{cast:[{
+  "character": "Batman"
+},
+{
+  "character": "Alfred"
+},
+{
+  "character": "Coringa"
+}]}}) 
+
+use('cinema');
+db.movies.updateOne({title:"Batman"}, 
+{$set:{"cast.$[elemento].actor":["Christian Bale"]}}, 
+{arrayFilters: [ { "elemento.character": "Batman" } ]})
+
+use('cinema');
+db.movies.updateOne({title:"Batman"}, 
+{$set:{"cast.$[elemento].actor":["Michael Caine"]}}, 
+{arrayFilters: [ { "elemento.character": "Alfred" } ]})
+
+use('cinema');
+db.movies.updateOne({title:"Batman"}, 
+{$set:{"cast.$[elemento].actor":["Heath Ledger"]}}, 
+{arrayFilters: [ { "elemento.character": "Coringa" } ]})
+
+
+use('cinema');
+db.movies.updateOne({title:"Batman"},
+ {$push:{'cast.0.actor':{$each:["Michael Keaton", "Val Kilmer", "George Clooney"],
+ $sort:1}}})
