@@ -211,12 +211,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Introdução - NoSQL_
-- [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates Simples_
-- [ ] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+:white_check_mark: 29-1: _Introdução - NoSQL_<br>
+:white_check_mark: 29-2: _Filter Operators_<br>
+:white_check_mark: 29-3: _Operadores de consulta_<br>
+:white_check_mark: 29-4: _Updates Simples_<br>
+:white_check_mark: 29-5: _Updates Complexos - Arrays_<br>
+:white_check_mark: 29-6: _[Projeto - Commerce](https://github.com/tamireshc/backend/tree/master/mongodb-commerce)_<br>
 
 ##### Bloco 30: MongoDB com Node.js e POO
 
