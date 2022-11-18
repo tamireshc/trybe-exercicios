@@ -218,11 +218,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 29-5: _Updates Complexos - Arrays_<br>
 :white_check_mark: 29-6: _[Projeto - Commerce](https://github.com/tamireshc/backend/tree/master/mongodb-commerce)_<br>
 
-##### Bloco 30: MongoDB com Node.js e POO
+##### Bloco 30: APIs OO e NoSQL
 
-- [ ] 30-1: _Mongoose e arquitetura MSC(camada Model)_
-- [ ] 30-2: _Mongoose e arquitetura MSC(camada Service e Controller)s_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+:white_check_mark: 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs)_<br>
+:white_check_mark: 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_<br>
+:white_check_mark: 30-3: _[Projeto - Car Shop](https://github.com/tamireshc/backend/tree/master/POO-project-car-shop)_<br>
 
 ##### Bloco 31: Projeto - App de Delivery
 
