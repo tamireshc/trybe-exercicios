@@ -7,7 +7,7 @@ list_word = []
 
 words = open("palavras.txt", "r")
 for item in words:
-    list_word.append(item)
+    list_word.append(item.replace("\n", ""))
 
 print(list_word)
 word_select = random.choice(list_word)
@@ -24,10 +24,7 @@ third_chanse = input("terceira tentativa")
 
 def check_answers(firt_chanse, second_chanse, thid_chanse):
     if (
-        firt_chanse == f"{word_select}\n"
-        or second_chanse == f"{word_select}\n"
-        or thid_chanse == f"{word_select}\n"
-        or firt_chanse == word_select
+        firt_chanse == word_select
         or second_chanse == word_select
         or thid_chanse == word_select
     ):

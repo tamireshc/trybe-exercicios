@@ -1,1 +1,1 @@
-print(pokemon_sort["name"])
+print(list_word)
