@@ -8,6 +8,12 @@ def is_email(email):
     print(result)
     if result is None:
         raise ValueError("Email invalido")
+    else:
+        return email
 
 
-is_email("errad#@dominio.comj")
+# is_email("errad#@dominio.comj")
+# is_email("tamires@gmail.com")
+# is_email("t1_@g**.com")
+# is_email("t1_@g1.com")
+# is_email("1_@g1.com")

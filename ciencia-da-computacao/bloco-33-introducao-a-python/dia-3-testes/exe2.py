@@ -12,11 +12,15 @@ codes = [
 ]
 
 
-def tranpile_code_to_phone_number(code):
+def transpile_code_to_phone_number(code):
     phone_number = ""
+    pattern = "[A-Za-z\-10]"
     for element in code:
+        result = re.findall(pattern, element)
         if element == "0" or element == "1" or element == "-":
             phone_number += element
+        if not len(result) > 0:
+            raise TypeError("a frase contém um ou mais valores inválidos")
         else:
             for index in range(len(codes)):
                 if re.search(element, (codes[index][0])) is not None:
@@ -24,7 +28,8 @@ def tranpile_code_to_phone_number(code):
                 else:
                     phone_number = phone_number
     print(phone_number)
+    return phone_number
 
 
-tranpile_code_to_phone_number("1-HOME-SWEET-HOME")
-tranpile_code_to_phone_number("MY-MISERABLE-JOB")
+transpile_code_to_phone_number("1-HOME-SWEET-HOME")
+transpile_code_to_phone_number("MY-MISERABLE-JOB")
