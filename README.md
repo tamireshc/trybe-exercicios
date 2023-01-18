@@ -230,20 +230,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 32-1: _Dia 1 - VPS_
-- [ ] 32-2: _ORM - Dia 2 - VPS_
+:white_check_mark: 32-1: _Dia 1 - VPS_
+:white_check_mark: 32-2: _ORM - Dia 2 - VPS_
 
 ## Ciência da Computação :hourglass_flowing_sand: ** parei aki
 
 ##### Bloco 33: Introdução à Python
 
-- [ ] 33-1: _Aprendendo Python_
-- [ ] 33-2: _Entrada e Saída de Dados_
-- [ ] 33-3: _Testes_
+:white_check_mark: 33-1: _Aprendendo Python_
+:white_check_mark: 33-2: _Entrada e Saída de Dados_
+-:white_check_mark: 33-3: _Testes_
 - [ ] 33-4: _[Projeto - Job Insights]()_
 
 ##### Bloco 34: Padrões de Projeto
-- [ ] 34-1: _P.O.O em Python_
+-:white_check_mark: 34-1: _P.O.O em Python_
 - [ ] 34-2: _Padrões - Iterator, Apapter, Strategy_
 - [ ] 34-3: _Padrões Dacorator, Observer, Factory_
 - [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
