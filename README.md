@@ -226,34 +226,34 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 31: Projeto - App de Delivery
 
-- [ ] 31-1: _[Projeto - App de Delivery]()_
+- [ ] 31-1: _[Projeto - App de Delivery]()_<br>
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 
-:white_check_mark: 32-1: _Dia 1 - VPS_
-:white_check_mark: 32-2: _ORM - Dia 2 - VPS_
+:white_check_mark: 32-1: _Dia 1 - VPS_<br>
+:white_check_mark: 32-2: _ORM - Dia 2 - VPS_<br>
 
 ## Ciência da Computação :hourglass_flowing_sand: ** parei aki
 
 ##### Bloco 33: Introdução à Python
 
-:white_check_mark: 33-1: _Aprendendo Python_
-:white_check_mark: 33-2: _Entrada e Saída de Dados_
--:white_check_mark: 33-3: _Testes_
-- [ ] 33-4: _[Projeto - Job Insights]()_
+:white_check_mark: 33-1: _Aprendendo Python_<br>
+:white_check_mark: 33-2: _Entrada e Saída de Dados_<br>
+:white_check_mark: 33-3: _Testes_<br>
+- [ ] 33-4: _[Projeto - Job Insights]()_<br>
 
 ##### Bloco 34: Padrões de Projeto
--:white_check_mark: 34-1: _P.O.O em Python_
-- [ ] 34-2: _Padrões - Iterator, Apapter, Strategy_
-- [ ] 34-3: _Padrões Dacorator, Observer, Factory_
-- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
+:white_check_mark: 34-1: _P.O.O em Python_<br>
+- [ ] 34-2: _Padrões - Iterator, Apapter, Strategy_<br>
+- [ ] 34-3: _Padrões Dacorator, Observer, Factory_<br>
+- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_<br>
 
 ##### Bloco 35: Rede e Raspagem de Dados
 
-- [ ] 35-1: _Arquitetura de redes_
-- [ ] 35-2: _Raspagem de Dados_
-- [ ] 35-3: _Outras Ferramentas de raspagem de Dados_
-- [ ] 35-4: _[Projeto - Tech news]()_
+- [ ] 35-1: _Arquitetura de redes_<br>
+- [ ] 35-2: _Raspagem de Dados_<br>
+- [ ] 35-3: _Outras Ferramentas de raspagem de Dados_<br>
+- [ ] 35-4: _[Projeto - Tech news]()_<br>
 
 ##### Bloco 36: Python parei aki
 
