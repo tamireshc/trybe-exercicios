@@ -136,7 +136,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :white_check_mark:_[Projeto - App de Receitas](https://recipe-app-chi-ten.vercel.app/)_<br>
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### Bloco 19: Docker: Utilizando Containers
 :white_check_mark: 19-1:_Utilizando Containers - Docker_<br>
@@ -233,14 +233,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 32-1: _Dia 1 - VPS_<br>
 :white_check_mark: 32-2: _ORM - Dia 2 - VPS_<br>
 
-## Ciência da Computação :hourglass_flowing_sand: ** parei aki
+## Ciência da Computação :hourglass_flowing_sand: 
 
 ##### Bloco 33: Introdução à Python
 
 :white_check_mark: 33-1: _Aprendendo Python_<br>
 :white_check_mark: 33-2: _Entrada e Saída de Dados_<br>
 :white_check_mark: 33-3: _Testes_<br>
-- [ ] 33-4: _[Projeto - Job Insights]()_<br>
+:white_check_mark: 33-4: _[Projeto - Job Insights](https://github.com/tamireshc/python/tree/main/job-insights)_<br>
 
 ##### Bloco 34: Padrões de Projeto
 :white_check_mark: 34-1: _P.O.O em Python_<br>
@@ -255,26 +255,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-3: _Outras Ferramentas de raspagem de Dados_<br>
 - [ ] 35-4: _[Projeto - Tech news]()_<br>
 
-##### Bloco 36: Python parei aki
+##### Bloco 36: Algoritmos 
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saída de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [ ] 36-1: _Complexidade de Algoritimos_
+- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 36-3: _Algoritmos de ordenação e busca_
+- [ ] 36-4: _[Projeto - Algoritmos]()_
 
-##### Bloco 37: Rede e Raspagem de Dados
+##### Bloco 37: Estrutura de Dados I:Arrays, Listas, Filas e Pilhas
 
-- [ ] 35-1: _Arquitetura de redes_
-- [ ] 35-2: _Raspagem de Dados_
-- [ ] 35-3: _Outras Ferramentas de raspagem de Dados_
-- [ ] 35-4: _[Projeto - Tech news]()_
+- [ ] 37-1: _Arquitetura de Computadores_
+- [ ] 37-2: _Arrays_
+- [ ] 37-3: _Nó e Listas Encadeadas_
+- [ ] 37-4: _Pilhas e Filas_
+- [ ] 37-5: _[Projeto - TING - Trybe Is Not Google]()_
 
-##### Bloco 38: Rede e Raspagem de Dados
+##### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 35-1: _Arquitetura de redes_
-- [ ] 35-2: _Raspagem de Dados_
-- [ ] 35-3: _Outras Ferramentas de raspagem de Dados_
-- [ ] 35-4: _[Projeto - Tech news]()_
+- [ ] 38-1: _Hashmap e Dict_
+- [ ] 38-2: _Set_
+- [ ] 38-3: _[Projeto - Restaurant Orders]()_
 
-# [...]
+
