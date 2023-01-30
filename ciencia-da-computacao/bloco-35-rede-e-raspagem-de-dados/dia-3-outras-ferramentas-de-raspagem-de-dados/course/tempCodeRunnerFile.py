@@ -1,0 +1,1 @@
+print(soup.get_text())
