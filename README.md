@@ -244,16 +244,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 34: Padrões de Projeto
 :white_check_mark: 34-1: _P.O.O em Python_<br>
-- [ ] 34-2: _Padrões - Iterator, Apapter, Strategy_<br>
-- [ ] 34-3: _Padrões Dacorator, Observer, Factory_<br>
-- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_<br>
+:white_check_mark: 34-2: _Padrões - Iterator, Apapter, Strategy_<br>
+:white_check_mark: 34-3: _Padrões Dacorator, Observer, Factory_<br>
+:white_check_mark: 34-4: _[Projeto - Relatórios de Estoque](https://github.com/tamireshc/python/tree/main/project-inventory-report)_<br>
 
 ##### Bloco 35: Rede e Raspagem de Dados
 
-- [ ] 35-1: _Arquitetura de redes_<br>
-- [ ] 35-2: _Raspagem de Dados_<br>
-- [ ] 35-3: _Outras Ferramentas de raspagem de Dados_<br>
-- [ ] 35-4: _[Projeto - Tech news]()_<br>
+:white_check_mark: 35-1:_Raspagem de Dados_<br>
+:white_check_mark: 35-2: _Outras Ferramentas de raspagem de Dados_<br>
+:white_check_mark: 35-3: _exercicios_<br>
+:white_check_mark: 35-4: _[Projeto - Tech news](https://github.com/tamireshc/python/tree/main/project-tech-news)_<br>
 
 ##### Bloco 36: Algoritmos 
 
