@@ -257,10 +257,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 36: Algoritmos 
 
-- [ ] 36-1: _Complexidade de Algoritimos_
-- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 36-3: _Algoritmos de ordenação e busca_
-- [ ] 36-4: _[Projeto - Algoritmos]()_
+:white_check_mark: 36-1: _Complexidade de Algoritimos_<br>
+:white_check_mark: 36-2: _Recursividade e Estratégias para solução de problemas_<br>
+:white_check_mark: 36-3: _Algoritmos de ordenação e busca_<br>
+:white_check_mark: 36-4: _[Projeto - Algoritmos](https://github.com/tamireshc/python/tree/main/algorithms)_<br>
 
 ##### Bloco 37: Estrutura de Dados I:Arrays, Listas, Filas e Pilhas
 
