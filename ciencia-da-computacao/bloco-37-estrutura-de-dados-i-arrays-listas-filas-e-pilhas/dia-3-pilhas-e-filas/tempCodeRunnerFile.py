@@ -1,0 +1,1 @@
+stack.min_value()
