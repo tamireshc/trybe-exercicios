@@ -1,0 +1,1 @@
+print(doble_and_triple_dict)
